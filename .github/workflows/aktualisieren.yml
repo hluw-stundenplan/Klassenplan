@@ -1,0 +1,66 @@
+name: Stundenplan aktualisieren und veröffentlichen
+
+on:
+  schedule:
+    # Zeiten in UTC: stündlich an Schultagen, 6–17 Uhr österreichischer Winterzeit
+    - cron: "0 5-16 * * 1-5"
+    # Sonntagabend: Vorschau auf die kommenden Wochen (längerer Zeitraum)
+    - cron: "30 17 * * 0"
+  # Manuell starten: Reiter „Actions“ → dieser Ablauf → „Run workflow“
+  workflow_dispatch:
+  # Neu veröffentlichen, sobald Dateien hochgeladen werden
+  push:
+    branches: [main]
+    paths-ignore: ["data/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: klassenplan
+  cancel-in-progress: false
+
+jobs:
+  aktualisieren:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: WebUntis und Termin-Tabelle abgleichen
+        if: github.event_name != 'push'
+        env:
+          SHEET_CSV_URL: ${{ vars.SHEET_CSV_URL }}
+          # Stündlich 6 Wochen, sonntags und bei manuellem Start 20 Wochen
+          WEEKS: ${{ github.event.schedule == '0 5-16 * * 1-5' && '6' || '20' }}
+        run: python scripts/update.py
+
+      - name: Geänderte Daten speichern
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "klassenplan-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          # Nur echte Änderungen speichern, nicht den reinen Zeitstempel
+          if git diff --cached --quiet -- data ':!data/stand.json'; then
+            echo "Keine inhaltlichen Änderungen."
+          else
+            git commit -m "Stundenplan aktualisiert" && git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: deploy
+        uses: actions/deploy-pages@v4

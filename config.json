@@ -1,0 +1,13 @@
+{
+  "schule": "HLUW Yspertal",
+  "webuntisServer": "hluw-yspertal.webuntis.com",
+  "webuntisSchule": "hluw-yspertal",
+  "standardKlasse": "3BUW",
+  "eintragenLink": "",
+  "schularbeitsfaecher": {
+    "standard": ["M", "D", "E", "AIM", "BWU", "RWC"]
+  },
+  "hinweise": {
+    "3BUW": "Jede Stunde möglich: Englisch-Wiederholung, GWV-Referate, Französisch-Vokabelwiederholung."
+  }
+}

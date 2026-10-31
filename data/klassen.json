@@ -1,0 +1,72 @@
+[
+ {
+  "id": 400,
+  "name": "1AUW",
+  "kv": "KV Urban"
+ },
+ {
+  "id": 403,
+  "name": "1BUW",
+  "kv": "KV Haider"
+ },
+ {
+  "id": 406,
+  "name": "1WKW",
+  "kv": "KV Enengl"
+ },
+ {
+  "id": 409,
+  "name": "2AUW",
+  "kv": "KV Köfinger"
+ },
+ {
+  "id": 412,
+  "name": "2WKW",
+  "kv": "KV Hocheneder"
+ },
+ {
+  "id": 415,
+  "name": "3AUW",
+  "kv": "KV Gramer"
+ },
+ {
+  "id": 418,
+  "name": "3BUW",
+  "kv": "KV Tischler"
+ },
+ {
+  "id": 421,
+  "name": "3WKW",
+  "kv": "KV Breinhölder"
+ },
+ {
+  "id": 424,
+  "name": "4AUW",
+  "kv": "KV Zauner"
+ },
+ {
+  "id": 427,
+  "name": "4BUW",
+  "kv": "KV Pfeifer"
+ },
+ {
+  "id": 430,
+  "name": "4WKW",
+  "kv": "KV Ramskogler"
+ },
+ {
+  "id": 433,
+  "name": "5AUW",
+  "kv": "KV Gortan"
+ },
+ {
+  "id": 436,
+  "name": "5BUW",
+  "kv": "KV Reber"
+ },
+ {
+  "id": 439,
+  "name": "5WKW",
+  "kv": "KV Karl"
+ }
+]

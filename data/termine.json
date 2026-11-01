@@ -1,8 +1,18 @@
 [
  {
+  "klasse": "3AUW",
+  "datum": "2026-11-04",
+  "art": "Test",
+  "fach": "F",
+  "stunden": "3.",
+  "titel": "Französisch / Italienisch / Spanisch",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
   "klasse": "3BUW",
   "datum": "2026-11-05",
-  "art": "test",
+  "art": "Test",
   "fach": "GWV",
   "stunden": "",
   "titel": "GWV-Test",
@@ -10,9 +20,29 @@
   "unsicher": false
  },
  {
+  "klasse": "1AUW",
+  "datum": "2026-11-06",
+  "art": "Schularbeit",
+  "fach": "PEK",
+  "stunden": "3.",
+  "titel": "",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
+  "klasse": "2WKW",
+  "datum": "2026-11-06",
+  "art": "Test",
+  "fach": "F",
+  "stunden": "3.",
+  "titel": "Französisch / Spanisch",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
   "klasse": "3BUW",
   "datum": "2026-11-06",
-  "art": "schularbeit",
+  "art": "Schularbeit",
   "fach": "D",
   "stunden": "1.–2.",
   "titel": "",
@@ -20,9 +50,19 @@
   "unsicher": false
  },
  {
-  "klasse": "3BUW",
+  "klasse": "2WKW",
   "datum": "2026-11-07",
-  "art": "termin",
+  "art": "Termin",
+  "fach": "",
+  "stunden": "",
+  "titel": "Tag der offenen Tür",
+  "notiz": "Samstag",
+  "unsicher": false
+ },
+ {
+  "klasse": "3AUW",
+  "datum": "2026-11-07",
+  "art": "Termin",
   "fach": "",
   "stunden": "",
   "titel": "Tag der offenen Tür",
@@ -31,8 +71,38 @@
  },
  {
   "klasse": "3BUW",
+  "datum": "2026-11-07",
+  "art": "Termin",
+  "fach": "",
+  "stunden": "",
+  "titel": "Tag der offenen Tür",
+  "notiz": "Samstag",
+  "unsicher": false
+ },
+ {
+  "klasse": "2WKW",
+  "datum": "2026-11-10",
+  "art": "Test",
+  "fach": "CWU",
+  "stunden": "",
+  "titel": "",
+  "notiz": "Im Kalender als „CHU“ eingetragen",
+  "unsicher": false
+ },
+ {
+  "klasse": "3AUW",
   "datum": "2026-11-11",
-  "art": "schularbeit",
+  "art": "Schularbeit",
+  "fach": "E",
+  "stunden": "1.",
+  "titel": "",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
+  "klasse": "3BUW",
+  "datum": "2026-11-11",
+  "art": "Schularbeit",
   "fach": "E",
   "stunden": "",
   "titel": "",
@@ -42,7 +112,7 @@
  {
   "klasse": "3BUW",
   "datum": "2026-11-12",
-  "art": "test",
+  "art": "Test",
   "fach": "PHUM",
   "stunden": "",
   "titel": "",
@@ -50,9 +120,19 @@
   "unsicher": false
  },
  {
+  "klasse": "3AUW",
+  "datum": "2026-11-16",
+  "art": "Schularbeit",
+  "fach": "M",
+  "stunden": "5.",
+  "titel": "",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
   "klasse": "3BUW",
   "datum": "2026-11-16",
-  "art": "schularbeit",
+  "art": "Schularbeit",
   "fach": "M",
   "stunden": "1.",
   "titel": "",
@@ -60,9 +140,19 @@
   "unsicher": false
  },
  {
+  "klasse": "3AUW",
+  "datum": "2026-11-18",
+  "art": "Test",
+  "fach": "CHU",
+  "stunden": "",
+  "titel": "",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
   "klasse": "3BUW",
   "datum": "2026-11-18",
-  "art": "test",
+  "art": "Test",
   "fach": "CHU",
   "stunden": "",
   "titel": "",
@@ -70,9 +160,59 @@
   "unsicher": true
  },
  {
+  "klasse": "2WKW",
+  "datum": "2026-11-19",
+  "art": "Schularbeit",
+  "fach": "BWU",
+  "stunden": "3.",
+  "titel": "",
+  "notiz": "Im Kalender zusätzlich „VEH“",
+  "unsicher": false
+ },
+ {
+  "klasse": "3AUW",
+  "datum": "2026-11-20",
+  "art": "Test",
+  "fach": "GWV",
+  "stunden": "3.",
+  "titel": "GWV-Test",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
+  "klasse": "2WKW",
+  "datum": "2026-11-23",
+  "art": "Schularbeit",
+  "fach": "E",
+  "stunden": "4.",
+  "titel": "",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
+  "klasse": "3AUW",
+  "datum": "2026-11-23",
+  "art": "Schularbeit",
+  "fach": "D",
+  "stunden": "1.–2.",
+  "titel": "",
+  "notiz": "Im Kalender „1/2“; Deutsch liegt laut Stundenplan in der 2.–3. Stunde",
+  "unsicher": true
+ },
+ {
+  "klasse": "3AUW",
+  "datum": "2026-11-25",
+  "art": "Test",
+  "fach": "PHUM",
+  "stunden": "6.",
+  "titel": "",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
   "klasse": "3BUW",
   "datum": "2026-11-25",
-  "art": "test",
+  "art": "Test",
   "fach": "PHUM",
   "stunden": "",
   "titel": "",
@@ -82,7 +222,7 @@
  {
   "klasse": "3BUW",
   "datum": "2026-11-26",
-  "art": "test",
+  "art": "Test",
   "fach": "UTI",
   "stunden": "",
   "titel": "",
@@ -90,9 +230,29 @@
   "unsicher": false
  },
  {
-  "klasse": "3BUW",
+  "klasse": "2WKW",
   "datum": "2026-11-27",
-  "art": "termin",
+  "art": "Test",
+  "fach": "BGO",
+  "stunden": "5.",
+  "titel": "Biologie-Test",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
+  "klasse": "2WKW",
+  "datum": "2026-11-27",
+  "art": "Termin",
+  "fach": "",
+  "stunden": "",
+  "titel": "Elternsprechtag",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
+  "klasse": "3AUW",
+  "datum": "2026-11-27",
+  "art": "Termin",
   "fach": "",
   "stunden": "",
   "titel": "Elternsprechtag",
@@ -101,8 +261,58 @@
  },
  {
   "klasse": "3BUW",
+  "datum": "2026-11-27",
+  "art": "Termin",
+  "fach": "",
+  "stunden": "",
+  "titel": "Elternsprechtag",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
+  "klasse": "2WKW",
   "datum": "2026-11-30",
-  "art": "schularbeit",
+  "art": "Schularbeit",
+  "fach": "M",
+  "stunden": "2.",
+  "titel": "",
+  "notiz": "Im Kalender unter dem 30.11. eingetragen",
+  "unsicher": false
+ },
+ {
+  "klasse": "2WKW",
+  "datum": "2026-11-30",
+  "art": "Termin",
+  "fach": "",
+  "stunden": "",
+  "titel": "Unterrichtsschluss 16:00 Uhr",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
+  "klasse": "3AUW",
+  "datum": "2026-11-30",
+  "art": "Schularbeit",
+  "fach": "RWC",
+  "stunden": "4.",
+  "titel": "",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
+  "klasse": "3AUW",
+  "datum": "2026-11-30",
+  "art": "Termin",
+  "fach": "",
+  "stunden": "",
+  "titel": "Unterrichtsschluss 16:00 Uhr",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
+  "klasse": "3BUW",
+  "datum": "2026-11-30",
+  "art": "Schularbeit",
   "fach": "RWC",
   "stunden": "4.",
   "titel": "",
@@ -110,9 +320,29 @@
   "unsicher": true
  },
  {
+  "klasse": "2WKW",
+  "datum": "2026-12-02",
+  "art": "Schularbeit",
+  "fach": "AIM",
+  "stunden": "",
+  "titel": "",
+  "notiz": "Im Kalender „1.+3. Std.“ (geteilte Gruppen)",
+  "unsicher": false
+ },
+ {
+  "klasse": "3AUW",
+  "datum": "2026-12-03",
+  "art": "Schularbeit",
+  "fach": "BWU",
+  "stunden": "",
+  "titel": "",
+  "notiz": "Im Kalender „3 BWU 1. VEH“; Stunde nicht eindeutig",
+  "unsicher": true
+ },
+ {
   "klasse": "3BUW",
   "datum": "2026-12-03",
-  "art": "schularbeit",
+  "art": "Schularbeit",
   "fach": "BWU",
   "stunden": "7.",
   "titel": "",
@@ -120,9 +350,9 @@
   "unsicher": false
  },
  {
-  "klasse": "3BUW",
+  "klasse": "3AUW",
   "datum": "2026-12-09",
-  "art": "termin",
+  "art": "Termin",
   "fach": "",
   "stunden": "3.–4.",
   "titel": "Bewerbungstraining",
@@ -131,39 +361,19 @@
  },
  {
   "klasse": "3BUW",
-  "datum": "2026-12-10",
-  "art": "schularbeit",
-  "fach": "SPA",
-  "stunden": "1.–2.",
-  "titel": "Spanisch / AIM",
-  "notiz": "Gruppenteilung SPA und AIM",
-  "unsicher": true
- },
- {
-  "klasse": "3BUW",
-  "datum": "2026-12-15",
-  "art": "schularbeit",
-  "fach": "F",
-  "stunden": "6.–7.",
-  "titel": "Französisch / AIM",
-  "notiz": "Gruppenteilung F und AIM",
-  "unsicher": true
- },
- {
-  "klasse": "3BUW",
-  "datum": "2026-12-17",
-  "art": "test",
-  "fach": "UTI",
-  "stunden": "",
-  "titel": "",
+  "datum": "2026-12-09",
+  "art": "Termin",
+  "fach": "",
+  "stunden": "3.–4.",
+  "titel": "Bewerbungstraining",
   "notiz": "",
   "unsicher": false
  },
  {
-  "klasse": "3BUW",
-  "datum": "2026-12-22",
-  "art": "test",
-  "fach": "BIO",
+  "klasse": "2WKW",
+  "datum": "2026-12-10",
+  "art": "Schularbeit",
+  "fach": "RWC",
   "stunden": "2.",
   "titel": "",
   "notiz": "",
@@ -171,8 +381,118 @@
  },
  {
   "klasse": "3BUW",
+  "datum": "2026-12-10",
+  "art": "Test",
+  "fach": "SPA",
+  "stunden": "1.–2.",
+  "titel": "Spanisch-Test",
+  "notiz": "Parallel: AIM-Schularbeit der anderen Gruppe",
+  "unsicher": false
+ },
+ {
+  "klasse": "3BUW",
+  "datum": "2026-12-10",
+  "art": "Schularbeit",
+  "fach": "AIM",
+  "stunden": "1.–2.",
+  "titel": "",
+  "notiz": "Parallel: Spanisch-Test der anderen Gruppe",
+  "unsicher": false
+ },
+ {
+  "klasse": "3AUW",
+  "datum": "2026-12-11",
+  "art": "Schularbeit",
+  "fach": "AIM",
+  "stunden": "4.",
+  "titel": "",
+  "notiz": "Im Kalender „AIM 4./?“; zweite Stundenangabe schwer lesbar",
+  "unsicher": true
+ },
+ {
+  "klasse": "3BUW",
+  "datum": "2026-12-15",
+  "art": "Test",
+  "fach": "F",
+  "stunden": "6.–7.",
+  "titel": "Französisch-Test",
+  "notiz": "Parallel: AIM-Schularbeit der anderen Gruppe",
+  "unsicher": false
+ },
+ {
+  "klasse": "3BUW",
+  "datum": "2026-12-15",
+  "art": "Schularbeit",
+  "fach": "AIM",
+  "stunden": "6.–7.",
+  "titel": "",
+  "notiz": "Parallel: Französisch-Test der anderen Gruppe",
+  "unsicher": false
+ },
+ {
+  "klasse": "2WKW",
+  "datum": "2026-12-16",
+  "art": "Termin",
+  "fach": "",
+  "stunden": "",
+  "titel": "Schitag",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
+  "klasse": "3AUW",
+  "datum": "2026-12-16",
+  "art": "Test",
+  "fach": "F",
+  "stunden": "3.",
+  "titel": "Französisch / Italienisch / Spanisch",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
+  "klasse": "3BUW",
+  "datum": "2026-12-17",
+  "art": "Test",
+  "fach": "UTI",
+  "stunden": "",
+  "titel": "",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
+  "klasse": "2WKW",
+  "datum": "2026-12-18",
+  "art": "Test",
+  "fach": "F",
+  "stunden": "3.",
+  "titel": "Französisch / Spanisch",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
+  "klasse": "3BUW",
+  "datum": "2026-12-22",
+  "art": "Test",
+  "fach": "BIO",
+  "stunden": "2.",
+  "titel": "",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
+  "klasse": "2WKW",
   "datum": "2027-01-09",
-  "art": "termin",
+  "art": "Termin",
+  "fach": "",
+  "stunden": "",
+  "titel": "Tag der offenen Tür",
+  "notiz": "Samstag",
+  "unsicher": false
+ },
+ {
+  "klasse": "3AUW",
+  "datum": "2027-01-09",
+  "art": "Termin",
   "fach": "",
   "stunden": "",
   "titel": "Tag der offenen Tür",
@@ -181,8 +501,38 @@
  },
  {
   "klasse": "3BUW",
+  "datum": "2027-01-09",
+  "art": "Termin",
+  "fach": "",
+  "stunden": "",
+  "titel": "Tag der offenen Tür",
+  "notiz": "Samstag",
+  "unsicher": false
+ },
+ {
+  "klasse": "2WKW",
+  "datum": "2027-01-11",
+  "art": "Test",
+  "fach": "E",
+  "stunden": "4.",
+  "titel": "E-Test",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
+  "klasse": "3AUW",
   "datum": "2027-01-13",
-  "art": "test",
+  "art": "Test",
+  "fach": "GPB",
+  "stunden": "7.",
+  "titel": "GPB-Test",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
+  "klasse": "3BUW",
+  "datum": "2027-01-13",
+  "art": "Test",
   "fach": "CHU",
   "stunden": "",
   "titel": "",
@@ -190,9 +540,49 @@
   "unsicher": false
  },
  {
+  "klasse": "3AUW",
+  "datum": "2027-01-14",
+  "art": "Test",
+  "fach": "BIO",
+  "stunden": "3.",
+  "titel": "",
+  "notiz": "",
+  "unsicher": false
+ },
+ {
+  "klasse": "2WKW",
+  "datum": "2027-01-15",
+  "art": "Test",
+  "fach": "CWU",
+  "stunden": "",
+  "titel": "",
+  "notiz": "Im Kalender als „CHU“ eingetragen",
+  "unsicher": false
+ },
+ {
+  "klasse": "2WKW",
+  "datum": "2027-01-20",
+  "art": "Termin",
+  "fach": "",
+  "stunden": "",
+  "titel": "Notenschluss",
+  "notiz": "12:00 Uhr",
+  "unsicher": false
+ },
+ {
+  "klasse": "3AUW",
+  "datum": "2027-01-20",
+  "art": "Termin",
+  "fach": "",
+  "stunden": "",
+  "titel": "Notenschluss",
+  "notiz": "12:00 Uhr",
+  "unsicher": false
+ },
+ {
   "klasse": "3BUW",
   "datum": "2027-01-20",
-  "art": "termin",
+  "art": "Termin",
   "fach": "",
   "stunden": "",
   "titel": "Notenschluss",
